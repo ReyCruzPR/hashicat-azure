@@ -3,8 +3,8 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "myresourcegroup"
-  location = "East US 2"
+  name     = "my-resources"
+  location = "West Europe"
 }
 
 module "network" {
